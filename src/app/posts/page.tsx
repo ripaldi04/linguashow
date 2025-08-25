@@ -57,7 +57,7 @@ export default function PostsPage() {
       
       {/* Hero Section */}
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
               <span className="block text-indigo-600">Posts</span>
@@ -77,23 +77,6 @@ export default function PostsPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
-            </div>
-            
-            <div className="flex items-center space-x-4">
-              <select className="text-black px-4 py-3 bg-white rounded-lg border-0 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
-                <option>All Topics</option>
-                <option>Technology</option>
-                <option>Travel</option>
-                <option>Food & Cooking</option>
-                <option>Movies & Entertainment</option>
-                <option>Business & Career</option>
-                <option>Environment & Nature</option>
-              </select>
-              <select className="text-black px-4 py-3 bg-white rounded-lg border-0 focus:ring-2 focus:ring-indigo-500 focus:outline-none">
-                <option>Latest</option>
-                <option>Most Popular</option>
-                <option>Most Comments</option>
-              </select>
             </div>
           </div>
 

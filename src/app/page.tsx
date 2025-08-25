@@ -3,11 +3,11 @@ import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 overflow-x-hidden">
       <Header />
 
       {/* Hero Section - Text Left, Video Right */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-8 py-16 mt-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Text Content */}
           <div className="space-y-8">
@@ -115,7 +115,7 @@ export default function HomePage() {
 
       {/* What is LinguaShow Section */}
       <section className="bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 py-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-8">
           {/* Header Section */}
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
@@ -256,8 +256,8 @@ export default function HomePage() {
         </div>
       </section>
             {/* Features Section */}
-            <section className="bg-gray-50 py-16">
-        <div className="container mx-auto px-4">
+      <section className="bg-gray-50 py-16">
+        <div className="container mx-auto px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose LinguaShow?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -301,7 +301,7 @@ export default function HomePage() {
 
       {/* New Section - Image Left, Text Right */}
       <section className="bg-white py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Image */}
             <div className="relative">

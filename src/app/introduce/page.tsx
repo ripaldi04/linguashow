@@ -7,7 +7,7 @@ export default function WhyLinguaShowPage() {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20">
+      <section className="py-20 mt-15">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">

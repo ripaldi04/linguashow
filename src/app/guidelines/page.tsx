@@ -7,8 +7,8 @@ export default function GuidelinesPage() {
       <Header />
       
       {/* Hero Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 mt-15">
+        <div className="container mx-auto px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
               Community
@@ -174,7 +174,7 @@ export default function GuidelinesPage() {
 
       {/* Consequences Section */}
       <section className="bg-white py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Konsekuensi Pelanggaran</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
